@@ -25,9 +25,6 @@ __all__ = [
     "AI", 
     "ask", 
     "stream_ask",
-    "think", 
-    "stream_think",
-    "ask_json",
     
     # 会话相关
     "ChatSession",
