@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="easyaikit",
-    version="0.1.0",
+    version="0.1.1",
     author="xiasang",
     author_email="aixiasang@163.com",
     description="一个简单易用的 AI API 工具包，让 AI 调用更轻松",

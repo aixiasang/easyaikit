@@ -7,8 +7,8 @@ from typing import Optional, Dict, List, Any, Generator, Union, Tuple
 
 from openai import OpenAI
 
-from easyopenai.session import ChatSession
-from easyopenai.storage import DBStorage, JSONStorage
+from easyaikit.session import ChatSession
+from easyaikit.storage import DBStorage, JSONStorage
 
 
 class AI:
@@ -287,7 +287,7 @@ class AI:
         返回:
             DBStorage 实例
         """
-        from easyopenai.storage import DBStorage
+        from easyaikit.storage import DBStorage
         return DBStorage(
             db_path=db_path,
             db_type=db_type,
@@ -310,7 +310,7 @@ class AI:
         返回:
             JSONStorage 实例
         """
-        from easyopenai.storage import JSONStorage
+        from easyaikit.storage import JSONStorage
         return JSONStorage(
             file_path=file_path,
             session_id=session_id

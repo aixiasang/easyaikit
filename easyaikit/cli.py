@@ -2,12 +2,10 @@
 EasyOpenAI 命令行工具
 """
 
-import os
-import sys
-import argparse
-from typing import Optional
 
-from easyopenai.client import AI
+import argparse
+
+from easyaikit.client import AI
 
 
 def main():
